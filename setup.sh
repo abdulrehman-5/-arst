@@ -1,4 +1,5 @@
-mkdir -p ~/.streamlit/
+mkdir -p ~/.opencv/
+mkdir -p ~/.numpy/
 
 echo "\
 [server]\n\
@@ -6,4 +7,5 @@ port = $PORT\n\
 enableCORS = false\n\
 headless = true\n\
 \n\
-" > ~/.streamlit/config.toml
+" > ~/.opencv/config.toml
+> ~/.numpy/config.toml
